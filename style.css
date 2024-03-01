@@ -19,6 +19,15 @@ body {
   line-height: 1.5;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#image {
+  max-width: 800px;
+}
+
 .container {
   padding: 2rem;
   display: flex;
@@ -55,4 +64,10 @@ input,
 button {
   padding: 0.5rem;
   font: inherit
+}
+
+#image {
+  margin-block: var(--spacing);
+  padding: var(--spacing);
+  border: 1px solid var(--color-primary);
 }
